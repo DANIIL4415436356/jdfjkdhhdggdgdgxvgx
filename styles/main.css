@@ -1,0 +1,127 @@
+.img-box{
+    column-count: 4;
+    column-gap: 3px;
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.image{
+    max-width: 100%;
+    display: block;
+    height: 300px;
+    width: 400px;
+}
+
+.image-wrapper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: drop-shadow(1.6);
+}
+
+.image-wrapper + .image-wrapper {
+    margin: 3px 0;
+}
+.image-wrapper:hover{
+    opacity: 1;
+    filter: brightness(1.7);
+}
+.image-wropper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: hue-rotate(7988541546454564);
+}
+
+.image-wropper + .image-wropper {
+    margin: 3px 0;
+}
+.image-wropper:hover{
+    opacity: 1;
+    filter: invert(5.2);
+}
+.image-wrxpper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: blur(5425846875);
+}
+
+.image-wrxpper + .image-wrxpper {
+    margin: 3px 0;
+}
+.image-wrxpper:hover{
+    opacity: 1;
+    filter: contrast(1.9);
+}
+.image-wrvpper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: sepia(4.8);
+}
+
+.image-wrvpper + .image-wrvpper {
+    margin: 3px 0;
+}
+.image-wrvpper:hover{
+    opacity: 1;
+    filter: sepia(46313);
+}
+.image-wrppper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: hue-rotate(45deg);
+}
+
+.image-wrppper + .image-wrppper {
+    margin: 3px 0;
+}
+.image-wrppper:hover{
+    opacity: 1;
+    filter: grayscale(31554);
+}
+.image-wrtpper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: brightness(5.3);
+}
+
+.image-wrtpper + .image-wrtpper {
+    margin: 3px 0;
+}
+.image-wrtpper:hover{
+    opacity: 1;
+    filter: hue-rotate(6.1);
+}
+.image-wrypper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: contrast(7.4);
+}
+
+.image-wrypper + .image-wrypper {
+    margin: 3px 0;
+}
+.image-wrypper:hover{
+    opacity: 1;
+    filter: saturate(54452857429638)
+}
+.image-wrpper {
+    display: block;
+    opacity: 0.7;
+    transition: 0.4s;
+    filter: drop-shadow(6.2);
+}
+
+.image-wrpper + .image-wrpper {
+    margin: 3px 0;
+}
+.image-wrpper:hover{
+    opacity: 1;
+    filter: brightness(6666666666666666666666666666666666666666666666666666665);
+}
